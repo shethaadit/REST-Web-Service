@@ -1,0 +1,5 @@
+
+RewriteEngine on
+
+# Request routing
+RewriteRule ^([a-zA-Z_-]*)$ /index.php?bookid=$1 [nc,qsa]
